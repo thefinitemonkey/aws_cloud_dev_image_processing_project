@@ -14,10 +14,12 @@ This project is focused on developing an image processing service using AWS clou
 
 ## Setup Instructions
 1. **Clone the repository**:
-    ```bash
+-    ```bash
     git clone https://github.com/yourusername/aws_cloud_dev_image_processing_project.git
     cd aws_cloud_dev_image_processing_project
     ```
+- Install npm modules with ```npm i```
+- Test locally by executing ```npm start```
 
 2. **Install dependencies**:
     ```bash
