@@ -43,9 +43,6 @@ app.get("/filteredimage", async (req, res) => {
   if (!image_url) {
     return res.status(400).send(`Image URL is required, used "${image_url}"`);
   }
-  //if (!["bmp", "gif", "jpg", "png"].includes(image_url.split(".").pop())) {
-  //  return res.status(401).send(`Image must be of type bmp, gif, jpg, or png. Found ${image_url.split(".")} instead`);
-  //}
 
   // Filter the image and send it back, deleting the file after sending and
   // handling errors
